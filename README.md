@@ -2,10 +2,10 @@
 
 This is a fully responsive front-end project built using **HTML**, **CSS**, and **JavaScript**. It features a modern navigation bar, search and login modals, and a stylish footer with social icons and useful links.
 
-<img src="home.png" alt="view" width="300"  />
+<img src="home.png" alt="view" width="600"  />
 
-<img src="image.png" alt="view" width="140"/>
-<img src="image-1.png" alt="view" width="140"/>
+<img src="image.png" alt="view" width="540"/>
+<img src="image-1.png" alt="view" width="540"/>
 
 
 ----
