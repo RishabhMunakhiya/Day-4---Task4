@@ -81,7 +81,6 @@ img {
 
 .main {
   position: relative;
- 
   height: 100vh;
 }
 
@@ -147,6 +146,7 @@ img {
   font-weight: var(--font-semi-bold);
   font-size: 40px;
   transition: color .4s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav__logo:hover {
   text-shadow: 0 0 10px rgb(255, 255, 255 , 0.3);
@@ -288,12 +288,12 @@ footer .social-icons a {
   margin-right: 0.7rem;
   font-size: 1.1rem;
   transition: color 0.3s, transform 0.3s;
-  display: inline-block;  
+  display: inline-block;
 }
 
 footer .social-icons a:hover {
-  color: #bb7385;
-  transform: scale(1.2) rotate(-5deg);  
+  color: #e16483;
+  transform: scale(1.5) rotate(-5deg);
 }
 
 .footer-2 {
@@ -328,6 +328,19 @@ footer .social-icons a:hover {
   }
 }
 
+/* Navigation for mobile devices */
+@media screen and (max-width: 1023px) {
+  .nav__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: var(--body-color);
+    box-shadow: 0 8px 16px hsla(230, 75%, 32%, .15);
+    width: 100%;
+    padding-block: 4.5rem 4rem;
+    transition: top .4s;
+  }
+}
 
 .nav__list {
   display: flex;
@@ -343,6 +356,7 @@ footer .social-icons a:hover {
 }
 
 .nav__close {
+  color: var(--title-color);
   position: absolute;
   top: 1.15rem;
   right: 1.5rem;
@@ -350,6 +364,7 @@ footer .social-icons a:hover {
 
 /* Show menu */
 .show-menu {
+  background: linear-gradient(135deg, #453a63, #9d6267);
   top: 0;
 }
 
@@ -359,7 +374,7 @@ footer .social-icons a:hover {
   align-items: center;
   column-gap: .5rem;
   background-color: var(--container-color);
-  box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+  box-shadow: 0 8px 32px rgba(10, 19, 67, 0.2);
   padding-inline: 1rem;
   border-radius: .5rem;
   transform: translateY(-1rem);
@@ -395,7 +410,7 @@ footer .social-icons a:hover {
 
 .search__close:hover ,
   .login__close:hover{
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.666);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.619);
   }
 
 /*=============== LOGIN ===============*/
@@ -524,20 +539,6 @@ footer .social-icons a:hover {
     margin-inline: auto;
   }
 }
-/* Navigation for mobile devices */
-@media screen and (max-width: 1023px) {
-  .nav__menu {
-    position: fixed;
-    top: -100%;
-    left: 0;
-    background-color: var(--body-color);
-    box-shadow: 0 8px 16px hsla(230, 75%, 32%, .15);
-    width: 100%;
-    padding-block: 4.5rem 4rem;
-    transition: top .4s;
-  }
-}
-
 
 /* For large devices */
 @media screen and (min-width: 1023px) {
