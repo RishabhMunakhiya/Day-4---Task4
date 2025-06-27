@@ -4,8 +4,8 @@ This is a fully responsive front-end project built using **HTML**, **CSS**, and 
 
 <img src="home.png" alt="view" width="600"  />
 
-<img src="image.png" alt="view" width="540"/>
-<img src="image-1.png" alt="view" width="540"/>
+<img src="image.png" alt="view" width="240"/>
+<img src="image-1.png" alt="view" width="240"/>
 
 
 ----
