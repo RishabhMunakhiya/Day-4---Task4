@@ -2,7 +2,7 @@
 
 This is a fully responsive front-end project built using **HTML**, **CSS**, and **JavaScript**. It features a modern navigation bar, search and login modals, and a stylish footer with social icons and useful links.
 
-<video controls src="20250627-1453-44.9206241.mp4" title="Title"></video>
+[▶️ Watch Demo Video](20250627-1453-44.9206241.mp4)
 
 ----
 
